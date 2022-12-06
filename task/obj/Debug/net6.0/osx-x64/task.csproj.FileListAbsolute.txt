@@ -1,0 +1,15 @@
+/Users/rika/Desktop/GeekBrains/01_99_final work/task/bin/Debug/net6.0/osx-x64/task
+/Users/rika/Desktop/GeekBrains/01_99_final work/task/bin/Debug/net6.0/osx-x64/task.deps.json
+/Users/rika/Desktop/GeekBrains/01_99_final work/task/bin/Debug/net6.0/osx-x64/task.runtimeconfig.json
+/Users/rika/Desktop/GeekBrains/01_99_final work/task/bin/Debug/net6.0/osx-x64/task.dll
+/Users/rika/Desktop/GeekBrains/01_99_final work/task/bin/Debug/net6.0/osx-x64/task.pdb
+/Users/rika/Desktop/GeekBrains/01_99_final work/task/obj/Debug/net6.0/osx-x64/task.csproj.AssemblyReference.cache
+/Users/rika/Desktop/GeekBrains/01_99_final work/task/obj/Debug/net6.0/osx-x64/task.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rika/Desktop/GeekBrains/01_99_final work/task/obj/Debug/net6.0/osx-x64/task.AssemblyInfoInputs.cache
+/Users/rika/Desktop/GeekBrains/01_99_final work/task/obj/Debug/net6.0/osx-x64/task.AssemblyInfo.cs
+/Users/rika/Desktop/GeekBrains/01_99_final work/task/obj/Debug/net6.0/osx-x64/task.csproj.CoreCompileInputs.cache
+/Users/rika/Desktop/GeekBrains/01_99_final work/task/obj/Debug/net6.0/osx-x64/task.dll
+/Users/rika/Desktop/GeekBrains/01_99_final work/task/obj/Debug/net6.0/osx-x64/refint/task.dll
+/Users/rika/Desktop/GeekBrains/01_99_final work/task/obj/Debug/net6.0/osx-x64/task.pdb
+/Users/rika/Desktop/GeekBrains/01_99_final work/task/obj/Debug/net6.0/osx-x64/task.genruntimeconfig.cache
+/Users/rika/Desktop/GeekBrains/01_99_final work/task/obj/Debug/net6.0/osx-x64/ref/task.dll
