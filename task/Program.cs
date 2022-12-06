@@ -7,21 +7,23 @@
 // ["1234", "1567", "-2", "computer science"] → ["-2"]
 // ["Russia", "Denmark", "Kazan"] → []
 
-// Вариант решения - 2
-// Решение оформлено в метод. Ввод данных - изначально заданные параметры.
+// Вариант решения - 3
+// Решение оформлено в метод. Ввод данных - ввод с клавиатуры.
 
-// используем для старта набор данных из примера:
-string[] arrayA = { "Hello", "2", "world", ":-)" };                     // - ввод исходного одномерного массива (массив взят из примера)
-// string[] arrayA = { "1234", "1567", "-2", "computer science" };
-// string[] arrayA = { "Russia", "Denmark", "Kazan" };
-int numberСharacters = 3;                                               // - количество символов, критерий отбора элементов
+Console.Write("Задайте строковый массив (элементы массива вводите через ;): ");           // - ввод исходного одномерного массива 
+string strLine = Console.ReadLine();
+Console.Write("Введите параметр сортировки (максимальное число символов в строке): ");  // - ввод количества символов, критерий отбора элементов
+int numberСharacters = int.Parse(Console.ReadLine() ?? "0");
 
+string[] arrayA = strLine.Split(new char[] { ';' });                                    // - разделение строки на элементы массива
 Console.WriteLine("Исходный массив:");
-Console.WriteLine(String.Join(" ", arrayA));                            // - вывод исходного одномерного массива
+Console.WriteLine(String.Join(" ", arrayA));                                            // - вывод исходного массива
 
 string[] arrayB = GetSelectionArray(arrayA, numberСharacters);          // - создание нового массива            
 Console.WriteLine("Новый массив:");
-Console.WriteLine(String.Join(" ", arrayB));
+Console.WriteLine(String.Join(" ", arrayB));                            // - вывод нового массива
+
+
 
 // Метод осздает новый массив на основе заданного, отсортировывая данные по заданной длинне строки
 string[] GetSelectionArray(string[] array, int number)
